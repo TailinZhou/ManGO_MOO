@@ -15,9 +15,9 @@ Extensive evaluations demonstrate that ManGO outperforms 24 single- and 10 multi
 
 ## Data and Pre-trained Models Downloading  
 
-The offline collected data can be accessed and downloaded via [Google Drive](https://drive.google.com/drive/folders/1SvU-p4Q5KAjPlHrDJ0VGiU2Te_v9g3rT?usp=drive_link). Please download the data and put them into ``~/ManGO_MOO/data``.
+The offline collected data can be accessed and downloaded via [Google Drive](https://drive.google.com/drive/folders/1SvU-p4Q5KAjPlHrDJ0VGiU2Te_v9g3rT?usp=drive_link). Please download and unzip them into ``~/ManGO_MOO/data``.
 
-Due to the storage limit of GitHub, our pre-trained models can be accessed and downloaded via [Google Drive](https://drive.google.com/drive/folders/1SvU-p4Q5KAjPlHrDJ0VGiU2Te_v9g3rT?usp=drive_link). Please download the models and put them into ``~/ManGO_MOO/model``.  
+Due to the storage limit of GitHub, our pre-trained models can be accessed and downloaded via [Google Drive](https://drive.google.com/file/d/1SG1BvsoKIpnmJHSUl4lF6KWuh9hMoJOm/view?usp=drive_link). Please download and unzip them into ``~/ManGO_MOO/model``.  
 
 ## Benchmark Installation
 
