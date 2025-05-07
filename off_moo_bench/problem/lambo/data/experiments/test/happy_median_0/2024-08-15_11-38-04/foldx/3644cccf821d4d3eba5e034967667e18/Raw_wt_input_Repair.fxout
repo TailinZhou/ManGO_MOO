@@ -1,0 +1,11 @@
+FoldX 4 (2011)
+by the FoldX Consortium 
+Jesper Borg, Frederic Rousseau, Joost Schymkowitz,
+Luis Serrano and Francois Stricher
+------------------------------------------------------
+
+PDB file analysed: batch
+Output type: BuildModel
+Pdb	total energy	Backbone Hbond	Sidechain Hbond	Van der Waals	Electrostatics	Solvation Polar	Solvation Hydrophobic	Van der Waals clashes	entropy sidechain	entropy mainchain	sloop_entropy	mloop_entropy	cis_bond	torsional clash	backbone clash	helix dipole	water bridge	disulfide	electrostatic kon	partial covalent bonds	energy Ionisation	Entropy Complex
+wt_input_Repair_1.pdb	-41.9857	-175.538	-79.7088	-265.247	-11.2572	335.201	-347.727	9.52402	142.026	342.452	0	0	2.24811	4.64865	59.6979	0	0	0	0	0	1.39271	0
+WT_wt_input_Repair_1.pdb	-43.376	-175.486	-80.5283	-264.603	-11.2917	334.778	-346.626	7.77049	141.996	342.625	0	0	2.24811	4.34911	59.7007	0	0	0	0	0	1.39264	0

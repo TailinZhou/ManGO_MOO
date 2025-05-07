@@ -1,0 +1,7 @@
+data_pruning: False 
+
+permutation_n_gen: 200
+sequence_n_gen: 200
+
+train_gp_data_size: 256
+solver_n_gen: 10

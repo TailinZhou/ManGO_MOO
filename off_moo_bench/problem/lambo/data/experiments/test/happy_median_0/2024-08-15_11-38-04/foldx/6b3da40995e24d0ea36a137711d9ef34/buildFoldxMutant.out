@@ -1,0 +1,51 @@
+   ********************************************
+   ***                                      ***
+   ***             FoldX 4 (c)              ***
+   ***                                      ***
+   ***     code by the FoldX Consortium     ***
+   ***                                      ***
+   ***     Jesper Borg, Frederic Rousseau   ***
+   ***    Joost Schymkowitz, Luis Serrano   ***
+   ***    Peter Vanhee, Erik Verschueren    ***
+   ***     Lies Baeten, Javier Delgado      ***
+   ***       and Francois Stricher          ***
+   *** and any other of the 9! permutations ***
+   ***   based on an original concept by    ***
+   ***   Raphael Guerois and Luis Serrano   ***
+   ********************************************
+
+1 models read: wt_input_Repair.pdb
+Output: /home/tzhouaq/offline-moo/off_moo_bench/problem/lambo/data/experiments/test/happy_median_0/2024-08-15_11-38-04/foldx/6b3da40995e24d0ea36a137711d9ef34/wt_input_Repair.log
+
+BackHbond       =               -174.33
+SideHbond       =               -69.44
+Energy_VdW      =               -258.70
+Electro         =               -10.52
+Energy_SolvP    =               317.03
+Energy_SolvH    =               -347.38
+Energy_vdwclash =               7.45
+energy_torsion  =               3.70
+backbone_vdwclash=              58.94
+Entropy_sidec   =               139.44
+Entropy_mainc   =               330.11
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               2.25
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = 0.00
+Energy_Ionisation =             0.59
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  -59.80
+
+Starting BuildModel
+Reading LA225R;
+Residue to Mutate LEUA225 has residue index 218
+Mutating residue = LEUA225 into ARG
+Your file run OK
+End time of FoldX: Thu Aug 15 13:08:04 2024
+Total time spend: 4.84 seconds.
+validated file "wt_input_Repair_1.pdb" => successfully finished
+Cleaning BuildModel...DONE
