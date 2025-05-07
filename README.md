@@ -21,11 +21,11 @@ Due to the storage limit of GitHub, our pre-trained models can be accessed and d
 
 ## Benchmark Installation
 
-For a stable installation and usage, we follow Off-MOO benchmark to use a machine with ``CUDA version 11.7`` or higher. 
+For a stable installation and usage, we follow the Off-MOO benchmark to use a machine with ``CUDA version 11.7`` or higher. 
 
 In order to run the  [Off-MOO](https://github.com/lamda-bbo/offline-moo) benchmark, following LaMBO ([Paper](https://arxiv.org/abs/2203.12742), [Code](https://github.com/samuelstanton/lambo)), you may first download [FoldX](https://foldxsuite.crg.eu/academic-license-info) Emulator.
 
-[FoldX](https://foldxsuite.crg.eu/academic-license-info) is available under a free academic license. After creating an account you will be emailed a link to download the FoldX executable and supporting assets. Copy the contents of the downloaded archive to ``~/foldx``. You may also need to rename the FoldX executable (e.g. ``mv -v ~/foldx/foldx_20221231 ~/foldx/foldx``).
+[FoldX](https://foldxsuite.crg.eu/academic-license-info) is available under a free academic license. After creating an account, you will be emailed a link to download the FoldX executable and supporting assets. Copy the contents of the downloaded archive to ``~/foldx``. You may also need to rename the FoldX executable (e.g. ``mv -v ~/foldx/foldx_20221231 ~/foldx/foldx``).
 <!-- 
 After installing FoldX, generate an instance ``proxy_rfp_problem.pkl`` of RFP task by running
 ```shell
@@ -43,27 +43,24 @@ if round_idx == self.num_rounds:
 
 <!-- ## Benchmark Installation -->
 
-After successfully installing [FoldX](https://foldxsuite.crg.eu/academic-license-info), we suggest that you install the environment line by line in install.sh due to the conflicts of different versions of packages. 
-
-Especially, when you use `pip install -r mango_requirements.txt`, you can install the packages part by part, even though you can run 
+After successfully installing [FoldX](https://foldxsuite.crg.eu/academic-license-info), we suggest that you install the environment in
 ```shell
-bash install.sh
+install.sh (please install line by line)
 ```
-to conduct a quick installation if all depencies are installed corretly.  
+due to the conflicts of different versions of packages,  even though you can run ``bash install.sh`` to conduct a quick installation if all dependencies are installed correctly.  
+Additionally, when you use `pip install -r mango_requirements.txt`, you can install the packages part by part.
 
 Note that if you encounter some installation errors (due to system compatibility issues) when using install.sh to install the off-moo benchmark, please check [Off-MOO](https://github.com/lamda-bbo/offline-moo) for a detailed installation guide. 
  
-
-
 ## Running
-After successful installation, you can run our jupyter scripts in the `~/ManGO_MOO/off_moo_baselines/end2end_diffusion` directory with our pretrained models and get the corresponding evaluation results.
+After successful installation, you can run our Jupyter scripts in the `~/ManGO_MOO/off_moo_baselines/end2end_diffusion` directory with our pretrained models and get the corresponding evaluation results.
 
 Note that please use your home directory to replace our directory in some cells of the original Jupyter scripts before you start.
  
 
 
 ## Contact and Citation
-Questions and comments are welcome. Suggestions can be submitted through Github issues. 
+Questions and comments are welcome. Suggestions can be submitted through GitHub issues. 
 
 @inproceedings{mango,
     author = {Tailin Zhou, Zhilin Chen, Wenlong Lyv, Zhitang Chen, Danny H.K. Tsang, and Jun Zhang.},
