@@ -1,6 +1,7 @@
 
 # Learning Design-Score Manifold to Guide Diffusion Models for Offline Optimization
 
+(This is the Code repository of ManGO for offline multi-objective optimization(MOO).)
 
 ## Abstract
 Optimizing complex systems—from discovering therapeutic drugs to designing high-performance materials—remains a fundamental challenge across science and engineering, as the underlying rules are often unknown and costly to evaluate. 
@@ -52,7 +53,7 @@ Additionally, when you use `pip install -r mango_requirements.txt`, you can inst
 
 Note that if you encounter some installation errors (due to system compatibility issues) when using install.sh to install the off-moo benchmark, please check [Off-MOO](https://github.com/lamda-bbo/offline-moo) for a detailed installation guide. 
  
-## Running
+## Run
 After successful installation, you can run our Jupyter scripts in the `~/ManGO_MOO/off_moo_baselines/end2end_diffusion` directory with our pretrained models and get the corresponding evaluation results.
 
 Note that please use your home directory to replace our directory in some cells of the original Jupyter scripts before you start.
