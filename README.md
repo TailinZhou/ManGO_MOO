@@ -63,7 +63,7 @@ Note that please use your home directory to replace our directory in some cells 
 Questions and comments are welcome. Suggestions can be submitted through GitHub issues. 
 
 @inproceedings{mango,
-    author = {Tailin Zhou, Zhilin Chen, Wenlong Lyv, Zhitang Chen, Danny H.K. Tsang, and Jun Zhang.},
+    author = {Tailin Zhou, Zhilin Chen, Wenlong Lyu, Zhitang Chen, Danny H.K. Tsang, and Jun Zhang.},
     title = {Learning Design-Score Manifold to Guide Diffusion Models for Offline Optimization},
     booktitle = {under review},
     year = {2025},
